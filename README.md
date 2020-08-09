@@ -49,6 +49,7 @@ $ cookiecutter https://github.com/audreyr/cookiecutter-pypackage
 $ cookiecutter gh:audreyr/cookiecutter-pypackage
 # Create project in the current working directory, from the local
 # cookiecutter-pypackage/ template
+$ pip install cookiecutter-pypackage
 $ cookiecutter cookiecutter-pypackage/
 ```
 
