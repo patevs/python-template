@@ -39,7 +39,7 @@ putup my_project --pyproject --markdown
 
 ```bash
 # Install cookiecutter
-pip install --user cookiecutter\
+pip install --user cookiecutter
 # Create project from the cookiecutter-pypackage.git repo template
 # You'll be prompted to enter values.
 # Then it'll create your Python package in the current working directory,
