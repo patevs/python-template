@@ -31,6 +31,8 @@ pip install pyscaffold-pyproject
 putup my_project
 cd my_project
 python setup.py develop
+# Create project with extensions
+putup my_project --pyproject --markdown
 ```
 
 ### Cookiecutter
