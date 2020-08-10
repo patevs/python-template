@@ -17,25 +17,24 @@
 
 ---
 
-## Usage
-
-### Pyscaffold
+## Pyscaffold
 
 ```bash
 # Install pyscaffold
 pip install pyscaffold
 # Install extensions
-pip install pyscaffold-markdown
-pip install pyscaffold-pyproject
-# Create new project
+pip install pyscaffoldext-markdown
+pip install pyscaffoldext-pyproject
+# Generate new project
 putup my_project
 cd my_project
+# Setup project
 python setup.py develop
 # Create project with extensions
 putup my_project --pyproject --markdown
 ```
 
-### Cookiecutter
+## Cookiecutter
 
 ```bash
 # Install cookiecutter
@@ -69,10 +68,3 @@ $ cookiecutter cookiecutter-pypackage/
 ```
 
 ---
-
-<!--
-* [`commitlint`](https://github.com/conventional-changelog/commitlint) Lint commit messages.
-  * [`commitlint-config-gitmoji`](https://github.com/arvinxx/commitlint-config-gitmoji) Commitlint config enforcing gitmoji rules.
-* [`husky`](https://github.com/typicode/husky) Git hooks made easy.
-* [`np`](https://github.com/sindresorhus/np) A better npm publish.
--->
