@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-    Setup file for putup_template.
+* setup.py
+    Setup file for python_template.
     Use setup.cfg to configure your project.
 
     This file was generated with PyScaffold 3.2.3.
@@ -21,3 +22,5 @@ except VersionConflict:
 
 if __name__ == "__main__":
     setup(use_pyscaffold=True)
+
+# EOF #
