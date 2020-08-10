@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import pytest
-from putup_template.skeleton import fib
+from python_template.skeleton import fib
 
 __author__ = "Patrick Evans"
 __copyright__ = "Patrick Evans"

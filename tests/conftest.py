@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-    Dummy conftest.py for putup_template.
+    Dummy conftest.py for python_template.
 
     If you don't know what this is for, just leave it empty.
     Read more about conftest.py under:
