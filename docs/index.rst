@@ -1,8 +1,8 @@
-==============
-putup-template
-==============
+===============
+python-template
+===============
 
-This is the documentation of **putup-template**.
+This is the documentation of **python-template**.
 
 .. note::
 

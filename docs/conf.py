@@ -35,7 +35,7 @@ except ImportError:
     from sphinx import apidoc
 
 output_dir = os.path.join(__location__, "api")
-module_dir = os.path.join(__location__, "../src/putup_template")
+module_dir = os.path.join(__location__, "../src/python_template")
 try:
     shutil.rmtree(output_dir)
 except FileNotFoundError:
@@ -94,7 +94,7 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = u'putup-template'
+project = u'python-template'
 copyright = u'2020, Patrick Evans'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -164,7 +164,7 @@ html_theme_options = {
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 try:
-    from putup_template import __version__ as version
+    from python_template import __version__ as version
 except ImportError:
     pass
 else:
@@ -229,7 +229,7 @@ html_static_path = ['_static']
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'putup_template-doc'
+htmlhelp_basename = 'python_template-doc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -248,7 +248,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'user_guide.tex', u'putup-template Documentation',
+  ('index', 'user_guide.tex', u'python-template Documentation',
    u'Patrick Evans', 'manual'),
 ]
 
