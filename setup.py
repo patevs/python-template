@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-* setup.py
     Setup file for python_template.
     Use setup.cfg to configure your project.
 
@@ -22,5 +21,3 @@ except VersionConflict:
 
 if __name__ == "__main__":
     setup(use_pyscaffold=True)
-
-# EOF #
