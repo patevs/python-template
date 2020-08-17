@@ -57,13 +57,11 @@ $ cookiecutter cookiecutter-pypackage/
 
 ```md
 .
-├── .commitlintrc.json
-├── .editorconfig
-├── .gitignore
-├── .huskyrc
-├── .np-config.json
+├── .editorconfig       # Editor configuration
+├── .gitignore          # Git ignore rules
+├── .np-config.json     # Npm publish (np) configuration
 ├── LICENSE
-├── package.json
+├── package.json        # Npm package configuration
 └── README.md
 ```
 
